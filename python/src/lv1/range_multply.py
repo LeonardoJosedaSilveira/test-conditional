@@ -8,10 +8,12 @@ Os números obtidos devem ser impressos em seqüência separada por vírgulas em
 
 '''
 
-list = set()
 
-for item in range(2000, 3201):
-    if (item % 7) == 0 and (item % 5) != 0:
-        list.add(item)
+def multiply():
+    list = set()
+    for item in range(2000, 3201):
+        if (item % 7) == 0 and (item % 5) != 0:
+            list.add(item)
+    return sorted(list)
 
-print(sorted(list) )
+print(multiply())
