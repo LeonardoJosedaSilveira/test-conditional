@@ -1,4 +1,3 @@
-import pytest
 from src.lv1.double_the_item import double
 
 

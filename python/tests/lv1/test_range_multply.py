@@ -1,4 +1,3 @@
-import pytest
 from src.lv1.range_multply import multiply
 
 
