@@ -1,4 +1,3 @@
-import pytest
 from src.lv1.fatorial import fatorial
 
 

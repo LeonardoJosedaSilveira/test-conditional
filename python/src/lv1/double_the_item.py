@@ -1,8 +1,6 @@
 '''
 Nível 1
 
-Nível 1
-
 Pergunta: Com um determinado número integral n, escreva um programa para gerar
 um dicionário que contenha (i, i * i) tal que seja um número integral entre 1
 e n (ambos incluídos). e então o programa deve imprimir o dicionário. Suponha
