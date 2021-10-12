@@ -1,5 +1,6 @@
 '''
 Nível 1
+Questão 3
 
 Pergunta: Com um determinado número integral n, escreva um programa para gerar
 um dicionário que contenha (i, i * i) tal que seja um número integral entre 1

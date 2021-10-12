@@ -1,5 +1,6 @@
 '''
 Nível 1
+Questão 2
 
 Pergunta: Escreva um programa que possa calcular o fatorial de um determinado número.
 Os resultados devem ser impressos em uma seqüência separada por vírgulas em uma única linha.
