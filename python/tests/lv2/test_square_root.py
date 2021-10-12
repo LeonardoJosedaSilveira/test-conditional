@@ -1,4 +1,4 @@
-from src.lv1.square_root import calc_extra_sqrt
+from src.lv2.square_root import calc_extra_sqrt
 
 
 def test_square():

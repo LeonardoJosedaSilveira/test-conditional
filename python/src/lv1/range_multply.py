@@ -1,6 +1,6 @@
 '''
-Questão 1
 Nível 1
+Questão 1
 
 Pergunta: Escreva um programa que encontre todos os números divisíveis por 7,
 mas não múltiplos de 5, entre 2000 e 3200 (ambos incluídos).
