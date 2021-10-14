@@ -11,16 +11,16 @@ bag, world Então, a saída deve ser: bag, hello, without, world
 Dicas: No caso de dados de entrada fornecidos para a pergunta, deve ser considerada uma entrada do console.
 '''
 
-def calc_create_line(x, y):
-    line = []
-    for collum in range(x):
-        line.append(y*collum)
-    return line
 
+def words_order(words):
+    result = '-'
+    words_list = words.split(',')
+    complete_list = sorted([word.strip() for word in words_list])
 
-def calc_and_create_matriz(x, y):
-    matriz = []
-    for line in range(x):
-        matriz.append(calc_create_line(y, line))
-
-    return matriz
+    for word in complete_list:
+        if result == '-':
+            result = word.strip()
+        else:
+            result += ', {}'.format(word.strip())
+    
+    return result

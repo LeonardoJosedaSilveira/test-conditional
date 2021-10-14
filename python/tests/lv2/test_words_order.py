@@ -1,8 +1,8 @@
-from src.lv2.square_root import calc_extra_sqrt
+from src.lv2.words_order import words_order
 
 
-def test_square():
-    results_exp = [18, 22, 24]
-    items = (100, 150, 180)
+def test_words_order():
+    results_exp = 'bag, hello, without, world'
+    result = words_order('without, hello, bag, world')
 
-    assert (calc_extra_sqrt(items) == results_exp) is True
+    assert (result == results_exp) is True
